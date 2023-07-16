@@ -1,0 +1,12 @@
+//flex to row div items
+// w-full nmn para itetake ng div yung whole space
+//kapag naka flex ka pwede mo gamitin yung justify-between 
+automatic magkaka space sa gitna ng dalwang tags
+// ctrl + space bar for suggestion
+//item-center nmn para mag pantay yung dalawang tags 
+// use state to make it collapse
+
+setCollapse(!collapse) 
+//meaning niyan kung ano ang current value ng collapse kabaliktaran nun ang iseset niya thats why may exclamation point
+
+const [collapse, setCollapse] = useState(false) //yung false is default value nung collapse
